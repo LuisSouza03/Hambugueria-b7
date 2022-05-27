@@ -1,0 +1,7 @@
+{
+  "name": "Hamburgueria",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
