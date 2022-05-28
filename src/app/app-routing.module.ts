@@ -1,8 +1,8 @@
-import { ForgetPasswordComponent } from './layout/forget-password/forget-password.component';
+import { ForgetPasswordComponent } from './Pages/forget-password/forget-password.component';
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
-import { LoginComponent } from './layout/login/login.component';
-import { RegisterComponent } from './layout/register/register.component';
+import { LoginComponent } from './Pages/login/login.component';
+import { RegisterComponent } from './Pages/register/register.component';
 
 const routes: Routes = [
   {
