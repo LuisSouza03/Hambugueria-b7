@@ -1,0 +1,29 @@
+<div class="container">
+  <ion-icon name="arrow-back-outline"></ion-icon>
+  <img class="title-img" src="../../../assets/B7_Delivery.svg" alt="">
+  <span>Use suas credencias <br> para fazer login</span>
+
+  <img class="divisor" src="../../../assets/divisor.svg" alt="">
+
+  <ion-item>
+    <ion-label position="floating">Email</ion-label>
+    <ion-input type="email"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Senha</ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+
+  <div class="login-button">
+    <ion-button color="none" expand="block">Entrar</ion-button>
+  </div>
+
+  <span class="forget-pass">Esqueceu sua senha? <span><a href="" [routerLink]="['/forget_password']" style=" color: #FB9400;">Clique Aqui</a></span></span>
+
+  <img class="divisor" src="../../../assets/divisor.svg" alt="">
+
+  <div class="sign-up">
+    <ion-button color="none" [routerLink]="['/register']" expand="block">Quero me Cadastrar</ion-button>
+  </div>
+</div>
